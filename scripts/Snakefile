@@ -1,0 +1,23 @@
+rule prepare:
+    input:
+        "raw_data.txt"
+    output:
+        "prepared_data.txt"
+    script:
+        "prepare_data.py"
+
+rule profile:
+    input:
+        "prepared_data.txt"
+    output:
+        "profile_results.txt"
+    script:
+        "profile.py"
+
+rule analyze:
+    input:
+        "profile_results.txt"
+    output:
+        "analysis_results.txt"
+    script:
+        "analyze.py"

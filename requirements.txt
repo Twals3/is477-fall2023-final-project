@@ -1,0 +1,8 @@
+pandas
+requests
+os
+fetch_ucrepo
+matplotlib.pyplot
+hashlib
+zipfile
+ProfileReport

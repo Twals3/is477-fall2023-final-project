@@ -1,0 +1,22 @@
+{
+    "title": "is447_final_project",
+    "description": "Wine Analysis",
+    "creators": [
+    {
+    "name": "Thomas, Walsh",
+    "orcid": "0000-0000-0000-0000"
+    }
+    ],
+    "related_identifiers": [
+    {
+    "scheme": "doi",
+    "identifier": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10067521.svg)](https://doi.org/10.5281/zenodo.10067521)
+    ",
+    "relation": "cites"
+    }
+    ],
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "MIT"
+    }
+    }
